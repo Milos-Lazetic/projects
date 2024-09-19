@@ -1,0 +1,1012 @@
+ID	1																									
+Browser	Google Chrome																									
+Operating system	Windows 10																									
+Testing type	Manual																									
+Name	"The fields ""Ime i prezime"" and ""Ulica i broj"" are not working properly - order is not successful when using valid inputs in the fields"																									
+Severity	P1																									
+Priority	P1																									
+Description	"After filling out the fields using lower boundary values, and clicking on the ""Narucujem"" button, the error messages are displayed "																									
+Steps to reproduce	Step #	Step description																								
+	1	Open Google Chrome browser																								
+	2	Navigate to www.pcpress.rs/prodavnica 																								
+	3	"Tick the checkbox next to the ""Kupujem"" button in the ""Godisnja pretplata na casopis PC (11 brojeva)"" section"																								
+	4	"Click on the ""Kupujem"" button in the ""Godisnja pretplata na casopis PC (11 brojeva)"" section"																								
+	5	"In the field ""Ime i prezime"" enter valid inputs (Q a)"																								
+	6	"In the field ""Ulica i broj"" enter valid inputs (C 1)"																								
+	7	"In the ""Postanski broj"" field enter valid inputs (11000)"																								
+	8	"In the ""Grad"" field enter valid inputs (Beograd"																								
+	9	"In the ""Telefon"" field enter valid inputs (066123456)"																								
+	10	"In the ""Email"" field enter valid inputs (abc@gmail.com)"																								
+	11	"Click on the ""Narucujem"" button"																								
+Expected result	"Order was successfully made and, and the ""Predracun"" page is displayed"																									
+Actual result	"Ordering was unsuccessful: A new page was opened with an error message displayed: ""Greska! Molimo Vas unesite ispravno Ime i prezime.
+Greska! Molimo Vas unesite ispravnu Ulicu i Broj.
+Greska! Molimo proverite sva polja - Povratak na Vasu narudzbenicu """																									
+
+ID	2																									
+Browser	Google Chrome																									
+Operating system	Windows 10 																									
+Testing type	Manual																									
+Name	"The fields ""Ime i prezime"" and ""Ulica i broj"" are not working properly - order is not successful when using valid inputs in the fields"																									
+Severity	P1																									
+Priority	P1																									
+Description	"After filling out the fields using lower boundary values, and clicking on the ""Narucujem"" button, the error messages are displayed "																									
+Steps to reproduce	Step #	Step description																								
+	1	Open Google Chrome browser																								
+	2	Navigate to https://www.pcpress.rs/prodavnica/																								
+	3	"Click on the checkbox next to ""KUPUJEM"" button in bottom right corner of ""Polugodisnja pretplata na casopis PC (6) brojeva"" section "																								
+	4	"Clear the ""Kolicina"" field"																								
+	5	"In the ""Kolicina"" field enter valid input (100)"																								
+	6	"Click on the ""KUPUJEM"" button in the ""Polugodisnja pretplata na casopis PC (6 brojeva)"" section"																								
+	7	"In the field ""Ime i prezime"" enter valid inputs (M le)"																								
+	8	"In the field ""Ulica i broj"" enter valid inputs (w /?)"																								
+	9	"In the field ""Postanski broj"" enter valid inputs (37000) "																								
+	10	"In the field ""Grad"" enter valid inputs (Krusevac)"																								
+	11	"In the field ""Telefon"" enter valid inputs (0661234567)"																								
+	12	"In the field ""Email"" enter valid inputs (milos1+qa@yahoo.com)"																								
+	13	"In the field ""Napomena"" enter valid inputs (As3@ ?)"																								
+	14	"Click on the ""Narucujem"" button"																								
+Expected result	"Order was successfully made and, and the ""Predracun"" page is displayed"																									
+Actual result	"Ordering was unsuccessful: A new page was opened with an error message displayed: ""Greska! Molimo Vas unesite ispravno Ime i prezime.
+Greska! Molimo Vas unesite ispravnu Ulicu i Broj.
+Greska! Molimo proverite sva polja - Povratak na Vasu narudzbenicu """																									
+
+ID	3																									
+Browser	Google Chrome																									
+Operating system	Windows 10 																									
+Testing type	Manual																									
+Name	"""KUPUJEM"" button of the ""Knjiga Office i Windows na radnom mestu"" doesn't work properly - when using invalid input in the ""Kolicina"" field, ""Narudzbenica"" form is opened"																									
+Severity	P1																									
+Priority	P1																									
+Description	"After entering invalid input in the ""Kolicina"" field of the ""Knjiga Office I Windows na radnom mestu"" and clicking ""KUPUJEM"" button, ""Narudzbenica"" form is opened, instead of error message displaying "																									
+Steps to reproduce	Step #	Step description																								
+	1	Open Google Chrome browser																								
+	2	Navigate to https://www.pcpress.rs/prodavnica/																								
+	3	"Tick the checkbox of the ""Knjiga Office i Windows na radnom mestu"" section"																								
+	4	"Clear the ""Kolicina"" field"																								
+	5	"In the ""Kolicina"" field enter invalid inputs (0)"																								
+	6	"Click on the ""KUPUJEM"" button "																								
+
+
+
+
+
+Expected result	"An error message is displayed ""Greška! U izabranom artiklu Knjiga Office i Windows upisana količina mora biti broj od 1 do 100"""																									
+Actual result	"""Narudzbenica"" form is opened"																									
+
+ID	4																									
+Browser	Google Chrome																									
+Operating system	Windows 10 																									
+Testing type	Manual																									
+Name	"Mismatched data in ""Postanski broj"" and ""Grad"" fields in ""Narudzbenica"" form of the ""Aktuelni broj casopisa PC"" section"																									
+Severity	P1																									
+Priority	P1																									
+Description	"When default selection of ""Aktuelni broj casopisa PC"" is ordered, mismatched data in ""Postanski broj"" and ""Grad"" fields is entered, instead of error message is displayed, ""Narudzbenica"" form is opened"																									
+Steps to reproduce	Step #	Step description																								
+	1	Open Google Chrome browser																								
+	2	Navigate to https://www.pcpress.rs/prodavnica/																								
+	3	Tick the checkbox next to ''Kupujem'' button in the ''Aktuelni broj časopisa PC'' section																								
+	4	"Click on the ""KUPUJEM"" button in the ""Aktuelni broj časopisa PC"" section "																								
+	5	"In the field ""Ime i Prezime"" enter valid inputs (Mira Miric)"																								
+	6	"In the field ""Ulica i Broj"" enter valid inputs (Savski Nasip BB)"																								
+	7	"In the ""Postanski broj"" field enter valid inputs (11000)"																								
+	8	"In the ""Grad"" field enter invalid inputs (Novi Sad)"																								
+	9	"In the ""Telefon"" field enter valid inputs (0667654321)"																								
+	10	"In the ""Email"" field enter valid inputs (mika@mika.com)"																								
+	11	"Click on the light blue ""Narucujem"" button at the bottom of the form"																								
+Expected result	"Greška! Molimo Vas unesite ispravan Grad.
+Greška! Molimo proverite sva polja - Povratak na Vašu narudžbenicu"																									
+Actual result	"""Narudzbenica"" form is opened"																									
+
+ID	5																									
+Browser	Google Chrome																									
+Operating system	Windows 10 																									
+Testing type	Manual																									
+Name	"In the ""Narudzbenica"" form, the field ""Telefon"" doesn't work properly - order is successful when using invalid inputs in the field"																									
+Severity	P1																									
+Priority	P1																									
+Description	"After filling out the fields with valid inputs, entering invalid inputs in the ""Telefon"" field, and clicking on the ""Narucujem"" button, instead of message error displaying, Narudzbenica form is opened"																									
+Steps to reproduce	Step #	Step description																								
+	1	Open Google Chrome browser																								
+	2	Navigate to https://www.pcpress.rs/prodavnica/																								
+	3	"Tick the checkbox next to ""KUPUJEM"" button in the ""Godisnja pretplata na casopis PC (11 brojeva)"" section"																								
+	4	"Clear the ""Kolicina"" field"																								
+	5	"In the ""Kolicina"" field enter valid input (10)"																								
+	6	"Click on the ""KUPUJEM"" button in the ""Godisnja pretplata na casopis PC (11 brojeva)"" section"																								
+	7	"In the ""Ime i prezime"" field enter valid inputs (Misa Kek)"																								
+	8	"In the ""Ulica i broj"" field enter valid inputs (Kojadinoviceva 10C)"																								
+	9	"In the ""Postanski broj"" field enter valid inputs (18000)"																								
+	10	"In the ""Grad"" field enter valid inputs (Nis)"																								
+	11	"In the ""Telefon"" field enter invalid inputs (01112345678)"																								
+	12	"In the ""Email"" field enter valid inputs (milos@matf.bg.ac.rs)"																								
+	13	"Click on the light blue ""Narucujem"" button at the bottom of the form"																								
+Expected result	"Purchase cannot be processed and the user is redirected to an error page
+Error message (Greska! Molimo Vas unesite ispravan rezultat u polje ""Telefon"") is displayed"																									
+Actual result	"The ""Narudzbenica"" form is opened"																									
+
+ID	6																									
+Browser	Google Chrome																									
+Operating system	Windows 10																									
+Testing type	Manual																									
+Name	"""KUPUJEM"" button of ""Knjiga Office i Windows na radnom mestu"" doesn't work properly - ""Narudzbenica"" form is opened eventhough nothing is ordered"																									
+Severity	P1																									
+Priority	P1																									
+Description	"After ticking the checkbox of the ""iPC 2008+ DL DVD - Elektronski indeks casopisa PC"" section and clicking the ""KUPUJEM"" button of the ""Knjiga Office i Windows na radnom mestu"" section, instead of error message, ""Narudzbenica"" form is opened"																									
+Steps to reproduce	Step #	Step description																								
+	1	Open Google Chrome browser																								
+	2	Navigate to www.pcpress.rs/prodavnica 																								
+	3	"Tick the checkbox next to the ""Kupujem"" button in the ""iPC 2008+ DL DVD - Elektronski indeks časopisa PC"" section"																								
+	4	"Click on the ""KUPUJEM"" button in the ""Knjiga Office i Windows na radnom mestu"" section "																								
+	5																									
+	6																									
+	7																									
+	8																									
+	9																									
+	10																									
+	11																									
+Expected result	Error message is displayed																									
+Actual result	"The ""Narudzbenica"" form is opened"																									
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
