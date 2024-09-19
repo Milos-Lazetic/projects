@@ -1,0 +1,542 @@
+Test case
+                                1
+   ID
+ Priority                 Critical
+             Order 1 of "Godisnja pretplata na
+ Test          casopis PC (11 brojeva)" via
+ case        "Placam uplatnicom" option, by                             .
+ name        using valid inputs in mandatory
+                           fields
+ Steps           Description of the step                        Expected result              Pass/Fail
+    1           Open Google Chrome browser                  The browser is opened              Pass
+                       Navigate to
+    2                                                         The page is opened               Pass
+                 www.pcpress.rs/prodavnica
+                                                           The checkbox is marked with
+                   Tick the checkbox next to the                  blue checkmark
+                "Kupujem" button in the "Godisnja        - The "Kolicina" field appeared
+    3                                                                                          Pass
+             pretplata na casopis PC (11 brojeva)"          with "1" as a default value
+                                section                 - The section turned light blue in
+                                                                        color
+                                                        Narudzbenica form is opened in
+              Click on the "Kupujem" button in the           the pop-up window, with
+    4       "Godisnja pretplata na casopis PC (11            selected data and option          Pass
+                          brojeva)" section             "Placam uplatnicom" is selected
+                                                                     by default
+             In the field "Ime i prezime" enter valid
+    5                                                           "Q a" is displayed             Pass
+                              input (Q a)
+                In the "Ulica I broj" field enter valid
+    6                                                           "C 1" is displayed             Pass
+                             inputs (C 1)
+            In the "Postanski broj" field enter valid
+    7                                                          "11000" is displayed            Pass
+                           inputs (11000)
+               In the "Grad" field enter valid inputs
+    8                                                         "Beograd" is displayed           Pass
+                               (Beograd)
+            In the "Telefon" field enter valid inputs
+    9                                                       "066123456" is displayed           Pass
+                            (066123456)
+              In the "Email" field enter valid inputs
+   10                                                    "abc@gmail.com" is displayed          Pass
+                         (abc@gmail.com)
+                                                        Order is successfully made, and
+   11            Click on the "Narucujem" button             the "Predracun" page is           Fail
+                                                                     displayed
+   12
+   13
+   14
+   15
+
+
+  Test
+                                2
+ case ID
+ Priority               Critical / High
+            Order 100 of "Polugodisnja pretplata
+ Test
+               na casopis PC (6 brojeva)" via
+ case                                                                   .
+            "Placam uplatnicom" option, by using
+ name
+                   valid inputs in all fields
+ Steps            Description of the step                       Expected result              Pass/Fail
+    1          Open Google Chrome browser                   The browser is opened              Pass
+                        Navigate to
+    2                                                         The page is opened               Pass
+             https://www.pcpress.rs/prodavnica/
+
+                                                           The checkbox is marked with
+                Click on the checkbox next to
+                                                                  blue checkmark
+              "KUPUJEM" button in bottom right
+    3                                                     - The "Kolicina field appeared       Pass
+             corner of "Polugodisnja pretplata na
+                                                            with "1" as a default value
+               casopis PC (6) brojeva" section
+                                                        - The section turned light blue in
+                                                                        color
+    4              Clear the "Kolicina" field                "Kolicina" field is empty         Pass
+            In the "Kolicina" field enter valid input
+    5                                                                                          Pass
+                             (100)                             "100" is displayed
+                                                        "Narudzbenica" form is opened
+            Click on the "KUPUJEM" button in the          in the pop-up window, with
+    6       "Polugodisnja pretplata na casopis PC          selected data and option            Pass
+                        (6 brojeva)" section           "Placam uplatnicom" is selected
+                                                                   by default
+             In the field "Ime i prezime" enter valid
+    7                                                          "M le" is displayed             Pass
+                            inputs (M le)
+               In the field "Ulica i broj" enter valid
+    8                                                          "w /?" is displayed             Pass
+                            inputs (w /?)
+            In the field "Postanski broj" enter valid
+    9                                                         "37000" is displayed             Pass
+                           inputs (37000)
+              In the field "Grad" enter valid inputs
+   10                                                       "Krusevac" is displayed            Pass
+                             (Krusevac)
+            In the field "Telefon" enter valid inputs
+   11                      (0661234567)                   "0661234567" is displayed            Pass
+
+             In the field "Email" enter valid inputs      "milos1+qa@yahoo.com" is
+   12                                                                                          Pass
+                   (milos1+qa@yahoo.com)                          displayed
+            In the field "Napomena" enter valid
+  13                                                        "As3@ ?" is displayed             Pass
+                       inputs (As3@ ?)
+                                                        Order is successfully made, and
+  14          Click on the "Narucujem" button                                                 Fail
+                                                         "Predracun" page is displayed
+  15
+
+
+ Test
+                               3
+case ID
+Priority                Critical / High
+              Order 2 of "Pretplata na digitalno
+Test
+            izdanje casopisa PC - Godisnja" via
+case                                                                   .
+           "Placam uplatnicom" option, by using
+name
+                   valid inputs in all fields
+Steps            Description of the step                       Expected result              Pass/Fail
+   1          Open Google Chrome browser                    The browser is opened             Pass
+                       Navigate to
+   2                                                         The page is opened               Pass
+            https://www.pcpress.rs/prodavnica/
+                                                          The checkbox is marked with
+                  Click on the checkbox next to                   blue checkmark
+             "KUPUJEM" button in the "Pretplata - The "Kolicina field" appeared
+   3                                                                                          Pass
+               na digitalno izdanje casopisa PC -           with "1" as a default value
+                         Godisnja" section             - The section turned light blue in
+                                                                        color
+   4                 Clear the "Kolicina" field              "Kolicina" field is empty        Pass
+            In the "Kolicina" field enter valid input
+   5                                                                                          Pass
+                                 (2)                              "2" is displayed
+                                                        "Narudzbenica" form is opened
+           Click on the "KUPUJEM" button in the            in the pop-up window, with
+   6              "Pretplata na digitalno izdanje            selected data and option         Pass
+                casopisa PC - Godsinja" section        "Placam uplatnicom" is selected
+                                                                     by default
+            In the field "Ime i prezime" enter valid
+   7                                                         "Ram Tam" is displayed           Pass
+                          inut (Ram Tam)
+               In the field "Ulica i broj" enter valid
+                                                       "Bulevar dr. Zorana Djindjica 37"
+   8          inputs (Bulevar dr. Zorana Djindjica                                            Pass
+                                                                     displayed
+                                 37)
+           In the field "Postanski broj" enter valid
+   9                                                           "15300" is displayed           Pass
+                           inputs (15300)
+              In the field "Grad" enter valid inputs
+  10                                                          "Loznica" is displayed          Pass
+                              (Loznica)
+           In the field "Telefon" enter valid inputs
+  11                                                        "062223344" is displayed          Pass
+                            (062223344)
+             In the field "Email" enter valid inputs
+  12                                                   "ananas.klik@co.rs" is displayed       Pass
+                       (ananas.klik@co.rs)
+                                                        Order is successfully made and
+  13            Click on the "Narucujem" button                                               Pass
+                                                         "Predracun" page is displayed
+  14
+  15
+
+
+ Test
+                               4
+case ID
+Priority              Critical / High
+            Order 99 of "Pretplata na digitalno
+Test
+           izdanje casopisa PC - Polugodisnja"
+case                                                                   .
+            via "Placam uplatnicom" option, by
+name
+               using valid inputs in all fields
+Steps            Description of the step                       Expected result              Pass/Fail
+   1          Open Google Chrome browser                    The browser is opened             Pass
+                       Navigate to
+   2                                                         The page is opened               Pass
+            https://www.pcpress.rs/prodavnica/
+                                                       The checkbox is marked with
+                Click on the checkbox next to                  blue checkmark
+            "KUPUJEM" button in the "Pretplata - The "Kolicina field" appeared
+   3                                                                                          Pass
+             na digitalno izdanje casopisa PC -          with "1" as a default value
+                    Polugodisnja" section            - The section turned light blue in
+                                                                     color
+   4               Clear the "Kolicina" field             "Kolicina" field is empty           Pass
+           In the "Kolicina" field enter valid input
+   5                                                                                          Pass
+                             (99)                             "99" is displayed
+                                                      "Narudzbenica" form is opened
+           Click on the "KUPUJEM" button in the         in the pop-up window, with
+   6           "Pretplata na digitalno izdanje           selected data and option             Pass
+            casopisa PC - Polugodisnja" section "Placam uplatnicom" is selected
+                                                                  by default
+
+            In the field "Ime i prezime" enter valid
+   7                                                     "Milos Milosevic" is displayed       Pass
+                    inputs (Milos Milosevic)
+              In the field "Ulica i broj" enter valid      "Zmaja od Nocaja 5/13" is
+   8                                                                                          Pass
+                inputs (Zmaja od Nocaja 5/13)                     displayed
+           In the field "Postanski broj" enter valid
+   9                                                         "26000" is displayed             Pass
+                          inputs (26000)
+             In the field "Grad" enter valid inputs
+  10                                                      "Pancevo" is displayed              Pass
+                           (Pancevo)
+           In the field "Telefon" enter valid inputs
+  11                                                    "0697893214" is displayed             Pass
+                         (0697893214)
+            In the field "Email" enter valid inputs "m.milosevic@hotmail.com" is
+  12                                                                                          Pass
+                 (m.milosevic@hotmail.com)                      displayed
+             In the field "Napomena" enter valid
+  13                                                 "Jako sam srecan" is displayed           Pass
+                   inputs (Jako sam srecan)
+                                                     Order is successfully made and
+  14           Click on the "Narucujem" button                                                Pass
+                                                      "Predracun" page is displayed
+  15
+
+
+ Test
+                               5
+case ID
+Priority           Critical / High
+       Order default selection "Aktuelni broj
+Test
+      casopisa PC" via "Placam uplatnicom"
+case                                                                   .
+          option, by using valid inputs in
+name
+                  mandatory field
+Steps       Description of the step                           Expected result               Pass/Fail
+   1           Open Google Chrome browser                 The browser is opened               Pass
+                         Navigate to
+   2                                                        The page is oepend                Pass
+               https://pcpress.rs/prodavnica/
+                                                         The checkbox is marked with
+                                                                blue checkmark
+           Tick the checkbox next to "KUPUJEM" - Checkbox is ticked, dropdown
+   3         button in the "Aktuelni broj casopisa        menu appeared with default          Pass
+                             PC" section                 value being first from the top
+                                                       - The section turned light blue in
+                                                                      color
+                                                        "Narudzbenica" form is opened
+                                                          in the pop-up window, with
+           Click on the "KUPUJEM" button in the
+   4                                                        selected data and option          Pass
+              "Aktuelni broj casopisa PC" section
+                                                       "Placam uplatnicom" is selected
+                                                                   by default
+            In the field "Ime i prezime" enter valid      "Pera Petrovic Jankovic" is
+   5                                                                                          Pass
+                 inputs (Pera Petrovic Jankovic)                   displayed
+               In the field "Ulica i broj" enter valid
+   6                                                   "Juzni Bulevar 123" is displayed       Pass
+                    inputs (Juzni Bulevar 123)
+           In the "Postanski broj" field enter valid
+   7                                                           24000 is displayed             Pass
+                           inputs (24000)
+              In the "Grad" field enter valid inputs
+   8                                                         "Subotica" is displayed          Pass
+                             (Subotica)
+           In the "Telefon" field enter valid inputs
+   9                                                       "069987654" is displayed           Pass
+                            (069987654)
+             In the "Email" field enter valid inputs "123pera!peric@hotmail.com" is
+  10                                                                                          Pass
+                  (123pera!peric@hotmail.com)                      displayed
+                                                       Order is successfully made, and
+  11            Click on the "Narucujem" button             the "Predracun" page is           Pass
+                                                                   displayed
+  12
+  13
+  14
+  15
+
+
+ Test
+                               6
+case ID
+Priority               Critical / High
+             Order “Broj 1” of “Arhiva brojeva
+Test        časopisa PC” and 50 of “Knjiga 50
+case          godina računarstva u Srbiji” via                         .
+name       “Placam uplatnicom” option, by using
+              valid inputs in mandatory fields
+Steps             Description of the step                     Expected result               Pass/Fail
+   1           Open Google Chrome browser                 The browser is opened               Pass
+                         Navigate to
+   2                                                        The page is opened                Pass
+               https://pcpress.rs/prodavnica/
+                                                   The checkbox is marked with
+                                                          blue checkmark
+                  Tick the checkbox next to      - Checkbox is ticked, dropdown
+   3         ''KUPUJEM'' button in the ''Arhiva    menu appeared with default                 Pass
+                brojeva časopisa PC'' section      value being first from the top
+                                                - The section turned light blue in
+                                                                color
+            Scroll the dropdown menu scrollbar     The scrollbar is scrolled to its
+   4                                                                                          Pass
+                  down to the end selection                 bottom end
+                                                    "Broj 1" turned blue and is
+   5       Select "Broj 1" in the dropdown menu                                               Pass
+                                                              selected
+                                                        The checkbox is marked with
+                                                                 blue checkmark
+         Tick the checkbox next to ''Kupujem''
+                                                       - The "Kolicina" filed appeared
+   6           button in the ''Knjiga 50 godina                                              Pass
+                                                          with "1" as a default value
+                racunarstva u Srbiji'' section
+                                                     - The section turned light blue in
+                                                                       color
+        Clear the "Kolicina" field in the "Knjiga
+   7           50 godina racunarstva u Srbiji''            "Kolicina" field is empty         Pass
+                              section"
+         In the ''Kolicina'' field enter valid input
+   8                                                            "50" is displayed            Pass
+                                 (50)
+                                                      "Narudzbenica" form is opened
+           Click the "KUPUJEM" button in the             in the pop-up window, with
+   9    "Kniga 50 godina racunarstva u Srbiji"             selected data and option          Pass
+                              section                "Placam uplatnicom" is selected
+                                                                    by default
+         In the field "Ime i prezime" enter valid          "Milena Bozic - Maric" is
+  10                                                                                         Pass
+                inputs (Milena Bozic-Maric)                         displayed
+            In the field "Ulica i Broj" enter valid      ul. Branka Radicevica #8 is
+  11                                                                                         Pass
+             inputs (ul. Branka Radicevica #8)                      displayed
+        In the "Postanski broj" field enter valid
+  12                                                          "31000" is displayed           Pass
+                         inputs (31000)
+           In the "Grad" field enter valid inputs
+  13                                                            Uzice is displayed           Pass
+                              (Uzice)
+        In the "Telefon" field enter valid inputs
+  14                                                      0611234567 is displayed            Pass
+                         (0611234567)
+          In the "Email" field enter valid inputs
+  15                                                 "filip.filip@bg.ac.rs" is displayed     Pass
+                     (filip.filip@bg.ac.rs)
+                                                     Order is successfully made, and
+  16          Click on the "Narucujem" button              the "Predracun" page is           Pass
+                                                                    displayed
+
+ Test
+                        7
+case ID
+Priority             Critical
+ Test
+ case Inspect the "Ukupan iznos:" calculator                         .
+ name
+ Steps      Description of the step                         Expected result                Pass/Fail
+   1       Open Google Chrome browser                   The browser is opened                Pass
+                     Navigate to
+   2                                                      The page is opened                 Pass
+           https://pcpress.rs/prodavnica/
+                                                     The checkbox is marked with
+                                                             blue checkmark
+           Tick the checkbox of the "Knjiga
+                                                   - The "Kolicina" filed appeared
+   3     Office i Windows na radnom mestu"                                                   Pass
+                                                       with "1" as a default value
+                        section
+                                                  - The section turned light blue in
+                                                                   color
+        Clear the "Kolicina" field in the "Knjiga
+   4     Office i Windows na radnom mestu''             "Kolicina" field is empty            Pass
+                        section"
+        In the "Kolicina" field enter valid input
+   5                                                                                         Pass
+                           (3)                               "3" is displayed
+                                                     The checkbox is marked with
+                                                             blue checkmark
+              Tick the checkbox of the "           - Checkbox is ticked, dropdown
+   6      Arhiva brojeva časopisa connect"           menu appeared with default              Pass
+                        section                      value being first from the top
+                                                  - The section turned light blue in
+                                                                   color
+                                                  Pop-up window is opened: blue-
+                                                  white header with "Izabrali ste" -
+                                                     "Knjiga Office i Windows na
+                                                   radnom mestu", "Količina" "3",
+                                                   "Cena" - "490", "Iznos" "1470";
+        Click on the "KUPUJEM" button in the "Izabrali ste" - “Arhiva brojeva
+                            "                        časopisa connect” (Broj 57),
+   7      Arhiva brojeva časopisa connect"                                                   Pass
+                                                    "Količina" - "1", "Cena" - "50"-
+                        section                      "Iznos (din)" -"50", "Ukupan
+                                                      iznos" - "1520" ; and option
+                                                  "Placam uplatnicom" is selected
+                                                        by default - Addition and
+                                                    multiplication operations work
+                                                                 correctly
+   8
+   9
+  10
+  11
+  12
+  13
+  14
+  15
+ Test
+                            8
+case ID
+Priority                  Low
+ Test
+ case    Inspect the "X" ("closeispis") function                  .
+ name
+ Steps         Description of the step                    Expected result             Pass/Fail
+   1          Open Google Chrome browser               The brpwser is opened            Pass
+                        Navigate to
+   2                                                    The page is opened              Pass
+              https://pcpress.rs/prodavnica/
+                                                      The checkbox turned blue
+           Tick the checkbox next to "KUPUJEM" - The Kolicina" field appeared
+   3        button in the "Kniga Office i Windows below with "1" as a default value     Pass
+                  na radnom mestu" section         - The whole section turned light
+                                                                 blue
+                                                   "Narudzbenica" form is opened
+           Click on the "KUPUJEM" button in the
+                                                  in a pop-up window with a close
+   4         "Kniga Office i Windows na radnom                                          Pass
+                                                      button ("X") in the top right
+                        mestu" section
+                                                                corner.
+   5            Click on the close button ("X")     The pop-up window is closed         Pass
+   6
+   7
+   8
+   9
+  10
+  11
+  12
+  13
+  14
+  15
+
+
+ Test
+                             9
+case ID
+Priority                  Medium
+ Test
+              Inspect the "Odustajem" button
+ case                                                             .
+                          function
+ name
+ Steps            Description of the step                 Expected result             Pass/Fail
+   1          Open Google Chrome browser               The browser is opened            Pass
+                        Navigate to
+   2                                                    The page is opened              Pass
+              https://pcpress.rs/prodavnica/
+                                                     A white tick appeared in the
+                                                              checkbox
+           Tick the checkbox next to "KUPUJEM"
+                                                    - The checkbox turned blue
+                       button in the "
+   3                                              - The "Kolicina" field appeared       Pass
+            Godišnja pretplata na časopis PC (11
+                                                 below with "1" as a default value
+                      brojeva)" section
+                                                 - The whole section turned light
+                                                                 blue
+           Click on the "KUPUJEM" button in the
+                                                 "Narudzbenica" form is opened
+   4       "Godišnja pretplata na časopis PC (11                                        Pass
+                                                        in a pop-up window
+                      brojeva)" section
+   5          Click on the "Odustajem" button      The pop-up window is closed          Pass
+   6
+   7
+   8
+   9
+  10
+  11
+  12
+  13
+  14
+  15
+
+
+ Test
+                             10
+case ID
+Priority                    Low
+ Test
+             Inspect the resize function of the
+ case                                                             .
+            “Ulica i broj” and “Napomena” fields
+ name
+ Steps            Description of the step                 Expected result             Pass/Fail
+   1          Open Google Chrome browser               The browser is opened            Pass
+                        Navigate to
+   2                                                    The page is opened              Pass
+              https://pcpress.rs/prodavnica/
+                                                  A white tick appeared in the
+                                                           checkbox
+      Tick the checkbox next to "Pretplata       - The checkbox turned blue
+3      na digitalno izdanje časopisa PC -      - The "Kolicina" field appeared     Pass
+                Godišnja" section                 with "1" as a default value
+                                              - The whole section turned light
+                                                              blue
+     Click on the "KUPUJEM" button in the
+                                                  "Narudzbenica" form is opened
+4         "Pretplata na digitalno izdanje                                          Pass
+                                                       in a pop-up window
+        časopisa PC - Godišnja" section
+     Click on the right bottom corner of the
+5    "Ulica i broj" field and try to resize it by    The "Ulica i broj" field is   Pass
+              stretching and shrinking                stretched and shrunk
+     Click on the right bottom corner of the
+                                                     The "Napomena" field is
+6     "Napomena" field and try to resize it                                        Pass
+                                                      stretched and shrunk
+           by stretching and shrinking
+7
+8
+9
+10
+11
+12
+13
+14
+15
+
