@@ -1,0 +1,222 @@
+      ID                              1
+Browser                         Google Chrome
+Operating
+                                  Windows 10
+system
+Testing type                          Manual
+Name                Registration form is not working properly
+Severity                                 P1
+Priority                                    P1
+                After filling out all fields in the registration form,
+Description     and clicking on the "Save Account information",
+                Internal Server Error is displayed
+   Steps to Step
+                             Step description
+  reproduce   #
+                1Open Google Chrome browser
+                  Navigate to
+                2
+                  https://petstore.octoperf.com/
+                3Click on the "Enter the Store" link
+                  Click on the "Sign in" blue link in
+                4
+                  the top center
+                  Click on the "Register Now" blue
+                5
+                  link below the "Login" link
+                  In the field "User ID" enter
+                6
+                  MikiMecava11
+                  In the field "New Password" enter
+                7
+                  SveJeSuper12!
+                  In the field "Repeat Password"
+                8
+                  enter SveJeSuper12!
+                  In the field "First name" enter
+                9
+                  Milan
+                  In the field "Last name" enter
+               10
+                  Markovic
+                  In the field "Email" enter
+               11
+                  blabla@gmail.com
+                  In the field "Phone" enter
+               12
+                  0601122334
+                  In the field "Address 1" enter
+               13
+                  Savska 12
+                  The field "Address 2" leave
+               14
+                  empty
+               15In the field "City" enter Paracin
+               16The field "State" leave empty
+               17In the field "Zip" enter 35250
+               18In the field "Country" enter Serbia
+                  In the field "Language
+               19
+                  Preference" leave english
+                  In the field "Favourite Category"
+               20
+                  leave FISH
+                  Fields "Enable MyList" and
+               21 "Enable MyBanner" leave
+                  unticked
+                  Click on "Save Account
+               22
+                  information"
+Expected
+result      Registration form is successfully fulfilled
+                A new page is opened with an error message
+                displayed: HTTP Status 500 - Internal Server
+Actual result   Error
+
+
+      ID                       2
+Browser               Google Chrome
+Operating
+                         Windows 10
+system
+Testing type               Manual
+Name         Search button is not working properly
+Severity                      P3
+Priority                      P3
+                After filling out the field next to the "Search"
+Description button with any of the listed options except Fish,
+            and clicking the "Search" button, no required list
+                is shown.
+                Step
+                              Step description
+                 #
+                   1Open Google Chrome browser
+                     Navigate to
+                   2
+                     https://petstore.octoperf.com/
+                   3Click on the "Enter the Store" link
+                     Click on the empty field next to
+                   4 the "Search" button
+
+                         In the empty field enter word
+                     5
+                         Birds
+                     6Click on the "Search" button
+
+
+
+
+Steps to
+reproduce
+Expected
+result        A list of birds is opened
+Actual result Empty page is opened
+Actual result
+
+     ID                              3
+Browser                        Google Chrome
+Operating
+                                 Windows 10
+system
+Testing type                   Manual
+                 Search button allows entering invalid
+Name
+                                input
+Severity                          P3
+Priority                                P3
+                The error message isn't displayed after entering
+Description     invalid input in the Search field and clicking the
+                Search button
+                Step
+                              Step description
+                 #
+                   1Open Google Chrome browser
+                     Navigate to
+                   2
+                     https://petstore.octoperf.com/
+                   3Click on the "Enter the Store" link
+                     Click on the empty grey field next
+                   4
+                     to the "Search" button
+                   5In the empty field enter "Insects"
+                   6Click on the "Search" button
+
+
+
+
+Steps to
+reproduce
+Expected
+                Error message is displayed
+result
+              Page with Product ID and Name
+Actual result columns is displayed
+
+      ID                             4
+Browser                        Google Chrome
+Operating
+                                 Windows 10
+system
+Testing type                     Manual
+Name                    Error on Registration form
+Severity                           P1
+Priority                           P1
+                After fulfilling only a few necessary fields and
+Description clicking on Save Account Information, instead of
+                getting a message to fill in all the required
+                fields, an Internal Server Error is displayed
+                Step
+                               Step description
+                 #
+                   1Open Google Chrome browser
+                     Navigate to
+                   2
+                     https://petstore.octoperf.com/
+                   3Click on the "Enter the Store" link
+                     Click on the "Sign in" blue link in
+                   4
+                     the top center
+                     Click on the "Register Now" blue
+                   5
+                     link below the "Login" link
+                     In the field "User ID" enter
+                   6
+                     MikiMecava11
+                     In the field "New Password" enter
+                   7
+                     SveJeSuper12!
+                     Click on the "Save Account
+                   8
+                     Information" green button
+
+
+Steps to
+reproduce
+Expected
+                Fill in all required fields
+result
+              HTTP Status 500 - Internal Server
+Actual result Error
+      ID                     5
+Browser                Google Chrome
+Operating
+                        Windows 10
+system
+Testing type              Manual
+Name
+Severity
+Priority
+Description
+                Step
+                        Step description
+                 #
+
+
+
+
+Steps to
+reproduce
+Expected
+result
+Actual result
+
