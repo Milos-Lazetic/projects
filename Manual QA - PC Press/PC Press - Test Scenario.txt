@@ -1,0 +1,46 @@
+﻿
+
+Positive Test Cases
+
+1. Order 1 of “Godišnja pretplata na časopis PC (11 brojeva)” via “Placam uplatnicom” option, by using valid inputs in mandatory fields 
+
+2. Order 100 of “Polugodišnja pretplata na časopis PC (6 brojeva)” via “Placam uplatnicom” option, by using valid inputs in all fields
+
+3. Order 2 of “Pretplata na digitalno izdanje časopisa PC - Godišnja” via “Placam uplatnicom” option, by using valid inputs in mandatory fields 
+
+4. Order 99 of “Pretplata na digitalno izdanje časopisa PC - Polugodišnja” via “Placam uplatnicom” option, by using valid inputs in all fields
+
+5. Order default selection “Aktuelni broj časopisa PC” via “Placam uplatnicom” option, by using valid inputs in mandatory fields
+
+6. Order “Broj 1” of “Arhiva brojeva časopisa PC” and 50 of “Knjiga 50 godina računarstva u Srbiji” via “Placam uplatnicom” option, by using valid inputs in mandatory fields
+
+7. Inspect the “Ukupan iznos:” calculator
+
+8. Inspect the “X” (“closeispis”) function
+
+9. Inspect the “Odustajem” button function
+
+10. Inspect the resize function of the “Ulica i broj” and “Napomena” fields 
+
+Negative Test Cases
+
+11. Order default selection of “Arhiva brojeva časopisa connect” without marking the checkbox
+
+12. Order “Knjiga Office i Windows na radnom mestu” by using invalid inputs in “Kolicina” field
+
+13. Order 3 “iPC 2008+ DL DVD - Elektronski indeks časopisa PC” by using invalid inputs in “Ime i Prezime” field
+
+14. Order 26 “Knjiga PC Vodič kroz primene računara” by using invalid inputs in “Ulica i broj”
+
+15. Order default selection “Aktuelni broj časopisa PC” by using mismatched data in “Postanski broj” and “Grad” fields
+
+16. Order 10  of “Godišnja pretplata na časopis PC (11 brojeva)” by using invalid inputs in “Telefon” field
+
+17. Order 4 of “Polugodišnja pretplata na časopis PC (6 brojeva)” by using invalid inputs in “Email” field 
+
+18. Order 8 of “Pretplata na digitalno izdanje časopisa PC - Godišnja” by leaving all fields in form empty
+
+19. Order “Arhiva brojeva časopisa PC” by unselecting default selection using “ctrl” function
+
+20. Order “Knjiga Office i Windows na radnom mestu” by ticking the checkbox of the “iPC 2008+ DL DVD - Elektronski indeks časopisa PC”
+
