@@ -1,0 +1,20 @@
+ PC Press dokumentacija
+https://pcpress.rs/prodavnica/
+
+1. Da bismo porucili casopis moramo da štikliramo checkbox pored tog casopisa;
+2. Polje "Kolicina" je mandatory polje i prihvata brojeve od 1 do 100. 
+3. Kada štikliramo checkbox pored casopisa sa kolicinom dobijamo polje "kolicina" sa default vrednoscu 1;
+4. Kada štikliramo checkbox pored casopisa sa padajucim menijem prvi casopis odozgo je odabir po default-u;
+5. Kada kliknemo na dugme "KUPUJEM" otvara se pop-up window "Narudžbenica"; u zaglavlju ovog prozora dobijamo sledece informacije: Izabrali ste (ime casopisa), Kolicina, Cena, Iznos (din), Ukupan iznos
+6. Koristimo samo opciju "Placam uplatnicom" - koja je odabrana po default-u;
+7. Polje "Ime i prezime" je mandatory polje, prihvata velika i mala slova i mora postojati razmak izmedu dva unosa;
+8. Polje "Ulica i broj" je mandatory polje, prihvata sve karaktere i mora postojati razmak izmedu dva unosa;
+9. Polja "Poštanski broj" i "Grad" treba da budu sinhronizovana:
+a. Ako se unesu odgovarajuci input-i u ova polja - porudžbina treba da prode;
+b. Ako se unesu neodgovarajuci input-i u ova polja - polja ce pocrveneti cim predemo na sledece polje;
+10. Polje "Telefon" je mandatory polje i prihvata 9 ili 10 brojeva/cifara;
+11. Polje "Email" je mandatory polje i prihvata validnu email formu;
+12. Polje "Napomena" je opciono polje i prihvata sve karaktere;
+13. Da bismo završili porudžbinu potrebno je da kliknemo na dugme "Narucujem". Kada kliknemo na dugme "Narucujem" dešava se sledece:
+a. Ako su uneti validni inputi - poružbina je uspešna i dobija se "Predracun" stranica;
+b. Ako su uneti nevalidni inputi - dobija se odgovarajuca greška.
